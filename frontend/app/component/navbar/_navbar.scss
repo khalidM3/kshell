@@ -1,0 +1,109 @@
+// .navbar {
+//   background-color: #333333;
+//   width: 100%;
+//   color: green;
+//   li {
+//     display: inline-block;
+//   }
+// }
+
+// @import "../../scss/lib/theme/vars";
+
+// .navbar {
+//   position: relative;
+//   .navbar-ul{
+
+//     li {
+//       display: inline-block;
+//     }
+
+//     .nav-link{
+//       color: white;
+//       font-size: 20px;
+//       font-family: Arial, Helvetica, sans-serif;
+//       width: 50px;
+//       border: 2px solid white;
+//       border-radius: 30%;
+//       text-align: center;
+//     }
+
+//     .searchbar {
+//       margin-left: 10vw;
+//       border: none;
+
+//       input {
+//         width: 40vw;
+//       }
+//     }
+
+//     .signup-btn {
+//     margin-left: 80%;
+//     border: 1px solid white;
+//     padding: 10px;
+//     color: white;
+//   }
+
+//   .login-btn {
+//     //  margin-left: 50%;
+//     border: 1px solid white;
+//     padding: 10px;
+//     color: white;
+//    }
+
+//    li:nth-child(5){
+//      margin-left: 90%;
+
+//      img {
+//        border-radius: 50%;
+//        width: 50px;
+//      }
+
+//      li {
+//       display: block;
+//       border-bottom: 1px solid black;
+//       padding: 5px;
+//     }
+//    }
+//   }
+
+// }
+
+.navbar {
+  color: green;
+
+  h2 {
+    display: inline-block;
+  }
+
+  ul {
+    float: right;
+    .signup {
+      display: inline-block;
+      border: 1px solid green;
+      border-radius: 20%;
+      width: 90px;
+      // height: 20px;
+      text-align: center;
+      padding: 10px;
+      &:hover {
+        background-color: green;
+        color: black;
+      }
+    }
+
+  .login {
+    display: inline-block;
+    border: 1px solid green;
+    border-radius: 20%;
+    width: 90px;
+    // height: 20px;
+    text-align: center;
+    padding: 10px;
+    &:hover {
+      background-color: green;
+      color: black;
+    }
+  }
+  }
+  
+}

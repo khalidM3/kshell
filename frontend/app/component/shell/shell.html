@@ -1,0 +1,25 @@
+<section class="main">
+  <section class="shell" ng-if="!shellCtrl.showVim">
+
+  <ul class="collum-container">
+    <li  class="collum" ng-repeat="collum in shellCtrl.collumsArr track by $index"> 
+      <h3> {{collum}} </h3>
+    </li>
+    <li>
+      
+      <form class="shell-form" ng-submit="shellCtrl.shellCmd()">
+        {{ shellCtrl.curr.path}}
+        <input type="text" ng-model="shellCtrl.input">
+        <button>submit</button>
+      </form>
+
+    </li>
+  </ul>
+  
+</section>
+
+<section ng-if="shellCtrl.showVim">
+  <vim file="shellCtrl.vimFile" showVim="shellCtrl.showVim"></vim>
+</section>
+
+</section>

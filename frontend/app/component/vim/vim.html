@@ -1,0 +1,11 @@
+<section class="vim">
+     <textarea placeholder="{{vimCtrl.file.content}}" ng-model="vimCtrl.file.content"></textarea>
+
+  <form ng-submit="vimCtrl.vimCmd()">
+    <input type="text" ng-model="vimCtrl.input">
+    <button>save</button>
+  </form>
+
+
+  <h5>{{ vimCtrl.file.name }}</h5>
+</section>

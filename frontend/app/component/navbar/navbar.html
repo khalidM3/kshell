@@ -1,0 +1,11 @@
+<section class="navbar">
+  <h2 ng-click="navbarCtrl.goHome()">KSHELL</h2>
+  <ul>
+    <!--<li class="nav-link pic" id="logo" ng-click="navbarCtrl.goHome()"></li>-->
+    <li ng-show="!navbarCtrl.hideSignupBtn" class="signup" ng-click="navbarCtrl.goSignUp()">sign up</li>
+    <!--<li ng-show="!navbarCtrl.hideMyRecipesBtn" class="signup" ng-click="navbarCtrl.myRecipes()">my recipes</li>-->
+    <li ng-show="!navbarCtrl.hideLoginBtn" class="login" ng-click="navbarCtrl.goLogin()">sign in</li>
+    <li ng-show="!navbarCtrl.hideLogout" class="login" ng-click="navbarCtrl.logout()">logout</li>
+    <!--<li ng-show="!navbarCtrl.hideHomeBtn" class="login" ng-click="navbarCtrl.home()">home</li>-->
+  </ul>
+</section>

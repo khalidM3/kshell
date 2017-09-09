@@ -1,0 +1,42 @@
+.vim {
+  // background-color: white;
+  // display: block;
+  width: 100%;
+  height: 100vw;
+  border: 1px solid yellow;;
+  font-family: 'Share Tech Mono', monospace;
+  font-size: 200px;
+  // color: green;
+  textarea {
+    font-family: 'Share Tech Mono', monospace;
+    font-size: 20px;
+    position: relative;
+    background-color: black;
+    color: white;
+    width: 100%;
+    height: 70vw;
+  }
+  form {
+    border: 3px solid red;
+    position: relative;
+    float: left;
+    // margin-left: 0;
+    padding: 0px;
+    // width: 100%;
+    // height: 100%;
+    // textarea {
+    //   // position: absolute;
+    //   width: 100%;
+    //   height: 100%;
+    // }
+    input {
+    background-color: black;
+    color: greenyellow;
+  }
+  }
+
+  // .collum {
+  //   border: 1px solid red;
+  //   color: green;
+  // }
+}
