@@ -1,4 +1,4 @@
-<h1 align="center"> Kshell <h1>
+<h1 align="center"> Kshell </h1>
   
 Kshell is a web app that emulates a bash terminal. It has most of the commands that are available in a normal ternimal. Users can also add content to the files they created. 
 
