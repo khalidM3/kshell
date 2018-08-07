@@ -9,3 +9,5 @@ Make sure you have an environment that kshell can run in which includes
 
 ## Installing 
 1. clone repo by running `git clone https://github.com/khalidM3/kshell`
+2. add a .env file to the folder `./backend`
+
