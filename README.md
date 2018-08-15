@@ -1,6 +1,6 @@
 <h1 align="center"> kshell </h1>
   
-Kshell is a web app that emulates a bash terminal. It has most of the commands that are available in a normal ternimal. Users can also add content to the files they created. 
+Kshell is a web app that emulates a bash terminal. It has most of the commands that are available in a normal ternimal. Users can also add content to the files they created. This application was made using using the MERN stack. 
 
 ## Environment
 Make sure you have an environment that kshell can run in which includes
